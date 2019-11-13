@@ -1,0 +1,13 @@
+{
+    "name": "iamsujun/php-code-coverage",
+    "description": "simple php coverage",
+    "require-dev": {
+        "phpunit/phpunit": "^8.4",
+        "phpunit/phpcov": "^6.0"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "mkdir -p storage/coverage storage/coverage_html"
+        ]
+    }
+}
